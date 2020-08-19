@@ -1,0 +1,117 @@
+html{
+	/*for responsive background image*/
+    height:100%;
+    margin:0;
+    /***********************************/
+}
+body{
+	height:100%;  /*for responsive background image*/
+	margin:0;
+	padding:0;
+	/*We are adding an overlay effect and a background image.*/
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/cascade.jpg);/*one level up from the current folder*/
+    /*********************************************************/
+
+    /* To center and scale the image nicely*/
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    /***************************************/
+}
+header{
+	
+	padding:10px;
+}
+.container {
+	width:87%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.logo {
+	width:11%;
+	float:left;
+}
+.logo img{
+	margin-top:11px;
+    width:100%;
+}
+.menu {
+	width:46%;
+	float:right;
+}
+.menu ul{
+	float:right;
+	padding:0;
+}
+.menu ul li{
+	list-style:none;
+	float:left;
+}
+.menu ul li a{
+	font-family:Century Gothic;
+	font-size:16px;
+	font-weight:400;
+	color:white;
+	display:inline-block;
+	text-decoration:none;
+    margin:3px;  /*to get the gaps between eacc button/links*/
+	padding:5px 17px;
+    transition:.5s;
+    
+}
+.menu ul li a:hover{
+	color:black;
+	background-color:white;
+}
+/*.menu ul li:last-child a{
+	padding-right:0;
+}*/
+.wrapper{
+	/*border:5px solid red;*/
+	/*To center the wrapper:*/
+	width:70%;
+	margin:140px auto;
+	/**************************/
+}
+.heading{
+	/*border:1px solid lime;*/
+}
+.heading h1{
+	/*border: 1px solid yellow;*/
+	margin:0;
+	/******Style the h1******/
+	font-family:Century Gothic;
+    font-size:45px;
+    font-weight:600;
+    color:white;
+    text-align:center;
+    padding-bottom:45px;
+    /*************************/
+}
+.buttons{
+	/*****To center the links***/
+	text-align:center;
+	/***************************/
+}
+.buttons a{
+	font-family:Century Gothic;
+    font-size:16px;
+    font-weight:400;
+    color:white;
+
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 20px;
+    background-color:orange;
+    margin:0 10px;
+    border-radius:20px;
+
+    transition:0.5s;
+}
+.buttons a:link, a:visited{
+    
+}
+.buttons a:hover{
+   background-color:#ef9b03;
+}
